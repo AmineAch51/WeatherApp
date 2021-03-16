@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+.gr {
+  margin-top: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.gr ._c {
+  border: 0 solid;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  padding: 30px 30px 15px 30px;
+  margin: 10px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-family: "Work Sans", sans-serif;
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
+}
+
+.gr ._c:hover {
+  opacity: 0.7;
+}
+
+.gr ._x {
+  position: relative;
+  width: 10px;
+  left: 210px;
+  bottom: 46px;
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
+}
+
+.gr ._x:hover {
+  color: red;
+}
+/*# sourceMappingURL=MyWeather.css.map */

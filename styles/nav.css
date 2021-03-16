@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+.nav {
+  border: 0 solid;
+  background-color: #0984e3;
+  height: 60px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 1px 1px 5px -1px #0984e3;
+          box-shadow: 1px 1px 5px -1px #0984e3;
+  color: white;
+}
+
+@media (min-width: 1400px) {
+  .nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+        grid-template-columns: 20% 60% 20%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1399px) {
+  .nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+        grid-template-columns: 20% 60% 20%;
+  }
+}
+
+@media (max-width: 899px) {
+  .nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 23% 57% 20%;
+        grid-template-columns: 23% 57% 20%;
+  }
+}
+
+.nav .wt {
+  font-family: "Potta One", cursive;
+  height: 100%;
+}
+
+@media (min-width: 1400px) {
+  .nav .wt {
+    margin-left: 30px;
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1399px) {
+  .nav .wt {
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 899px) {
+  .nav .wt {
+    margin-top: 17px;
+    font-size: 16px;
+  }
+}
+
+.nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.nav .menu a {
+  margin-top: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
+}
+
+.nav .menu a:hover {
+  opacity: 0.7;
+}
+
+.nav .lg {
+  border: 1px solid white;
+  width: 120px;
+  height: 30px;
+  margin-top: 12px;
+  padding-top: 5px;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
+}
+
+.nav .lg:hover {
+  background-color: white;
+  color: #0984e3;
+}
+
+.nav .cnlg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav .dc {
+  border: 0 solid;
+  width: 120px;
+  height: 30px;
+  margin-top: 12px;
+  padding-top: 5px;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #c23616;
+  cursor: pointer;
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
+}
+
+.nav .dc:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=nav.css.map */
