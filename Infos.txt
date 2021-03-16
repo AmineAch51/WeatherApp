@@ -1,1 +1,5 @@
-This website is a weather site show the weather of the five next days
+-This website is a weather site show the weather of the five next days.
+*Options : 
+    -Search city from his name
+    -You can add a city to favorites.
+    -You can remove city from favorites.
